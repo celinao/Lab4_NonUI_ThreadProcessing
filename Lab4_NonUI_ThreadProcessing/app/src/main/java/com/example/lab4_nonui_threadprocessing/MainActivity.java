@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-// hi
+
     private static final String TAG = "MainActivity";
 
     @Override
@@ -28,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startDownload(View view){
-        mockFileDownloader();
+        ExampleRunnable runnable = new ExampleRunnable();
+        new Thread(runnable).start();
+    }
+
+    public class ExampleRunnable implements Runnable{
+
+        @Override
+        public void run(){
+            mockFileDownloader();
+        }
     }
 }
