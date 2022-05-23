@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HelloWorld.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HelloWorld.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab4_NonUI_ThreadProcessing.iml" filepath="$PROJECT_DIR$/.idea/Lab4_NonUI_ThreadProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab4_NonUI_ThreadProcessing.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab4_NonUI_ThreadProcessing.app.iml" />
     </modules>
   </component>
 </project>
